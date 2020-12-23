@@ -1,4 +1,11 @@
 # Parsing protocol files with parse_protocol.pl
+## 2020-12-23: master and development branch
+I copied the master branch to a development branch and removed all files except the json file from the master branch.
+This makes it easier to use this module as a git submodul.
+
+So if you want to know how I created the json file, use the development brancht.
+If you want to use the json file in your own git repository, use the mater branch.
+
 ## Goal
 We want to parse the protocol files and extract as much information as possible:
 - mapping between hexadecimal module type and the module name
