@@ -1129,6 +1129,11 @@
                   "Get" : "yes"
                }
             },
+            "2D" : {
+               "Action" : {
+                  "Get" : "yes"
+               }
+            },
             "31" : {
                "Action" : {
                   "Get" : "yes"
@@ -1138,9 +1143,14 @@
                "Action" : {
                   "Get" : "yes"
                }
+            },
+            "3E" : {
+               "Action" : {
+                  "Get" : "yes"
+               }
             }
          },
-         "Modules" : "2A,2B,2C,31,32,33,38"
+         "Modules" : "2A,2B,2C,2D,31,32,33,38,3E"
       },
       "SensorNumber" : {
          "Get" : {
@@ -11386,50 +11396,6 @@
          "Memory" : {
             "1" : {
                "Address" : {
-                  "00E4" : {
-                     "Match" : {
-                        "1" : {
-                           "%........" : {
-                              "Channel" : "01",
-                              "SubName" : "Divider",
-                              "Value" : "PulsePerUnits"
-                           }
-                        }
-                     }
-                  },
-                  "00E9" : {
-                     "Match" : {
-                        "1" : {
-                           "%........" : {
-                              "Channel" : "02",
-                              "SubName" : "Divider",
-                              "Value" : "PulsePerUnits"
-                           }
-                        }
-                     }
-                  },
-                  "00EE" : {
-                     "Match" : {
-                        "1" : {
-                           "%........" : {
-                              "Channel" : "03",
-                              "SubName" : "Divider",
-                              "Value" : "PulsePerUnits"
-                           }
-                        }
-                     }
-                  },
-                  "00F3" : {
-                     "Match" : {
-                        "1" : {
-                           "%........" : {
-                              "Channel" : "04",
-                              "SubName" : "Divider",
-                              "Value" : "PulsePerUnits"
-                           }
-                        }
-                     }
-                  },
                   "03AC" : {
                      "ModuleName" : "0:Start"
                   },
@@ -14581,20 +14547,20 @@
                "Type" : "Button"
             },
             "05" : {
-               "Name" : "Virtual button 5",
-               "Type" : "Button"
+               "Name" : "Dark/Light output",
+               "Type" : "Sensor"
             },
             "06" : {
-               "Name" : "Virtual button 6",
-               "Type" : "Button"
+               "Name" : "Motion output",
+               "Type" : "Sensor"
             },
             "07" : {
-               "Name" : "Virtual button 7",
-               "Type" : "Button"
+               "Name" : "Light Depending motion",
+               "Type" : "Sensor"
             },
             "08" : {
-               "Name" : "Virtual button 8",
-               "Type" : "Button"
+               "Name" : "Absence output",
+               "Type" : "Sensor"
             },
             "10" : {
                "Editable" : "yes",
@@ -15128,10 +15094,10 @@
                      "0" : {
                         "Match" : {
                            "%." : {
-                              "Convert" : "ChannelBitStatus:8"
+                              "Convert" : "ChannelBitStatus:7"
                            }
                         },
-                        "Name" : "Button"
+                        "Name" : "Sensor"
                      }
                   },
                   "PerMessage" : {
@@ -20133,11 +20099,11 @@
                "Type" : "Button"
             },
             "33" : {
+               "Editable" : "yes",
                "Name" : "Temperature",
                "Type" : "Temperature"
             },
             "34" : {
-               "Editable" : "yes",
                "Name" : "Heater",
                "Type" : "ThermostatChannel"
             },
@@ -20952,6 +20918,7 @@
                "Type" : "Sensor"
             },
             "09" : {
+               "Editable" : "yes",
                "Name" : "Temperature",
                "Type" : "Temperature"
             },
@@ -24188,20 +24155,20 @@
                "Type" : "Button"
             },
             "05" : {
-               "Name" : "Virtual button 5",
-               "Type" : "Button"
+               "Name" : "Dark/Light output",
+               "Type" : "Sensor"
             },
             "06" : {
-               "Name" : "Virtual button 6",
-               "Type" : "Button"
+               "Name" : "Motion output",
+               "Type" : "Sensor"
             },
             "07" : {
-               "Name" : "Virtual button 7",
-               "Type" : "Button"
+               "Name" : "Light Depending motion",
+               "Type" : "Sensor"
             },
             "08" : {
-               "Name" : "Virtual button 8",
-               "Type" : "Button"
+               "Name" : "Absence output",
+               "Type" : "Sensor"
             },
             "10" : {
                "Editable" : "yes",
@@ -24735,10 +24702,10 @@
                      "0" : {
                         "Match" : {
                            "%." : {
-                              "Convert" : "ChannelBitStatus:8"
+                              "Convert" : "ChannelBitStatus:7"
                            }
                         },
-                        "Name" : "Button"
+                        "Name" : "Sensor"
                      }
                   },
                   "PerMessage" : {
@@ -24987,7 +24954,7 @@
             },
             "05" : {
                "Editable" : "yes",
-               "Name" : "Virtual relay",
+               "Name" : "Virtual relay 4",
                "Type" : "Relay"
             },
             "06" : {
@@ -25326,5 +25293,5 @@
          "Version" : "edition 1"
       }
    },
-   "Version" : "20201225"
+   "Version" : "20201226"
 }
