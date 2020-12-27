@@ -1,4 +1,16 @@
 # Parsing protocol files with parse_protocol.pl
+## Missing data
+I miss some information and more specifically the channel information for the following modules:
+- 0A=VMB8IR (Infrared remote control receiver module)
+- 0E=VMB1TC (TemperatureController Module)
+- 13=VMBLCDWB (Multi page push button module)
+- 1A=VMB4RF (Wireless remote control receiver module)
+- 30=VMBRFR8S (8 channel RF receiver module)
+- 33=VMBVP1 (Doorbird interface module)
+- 42=VMBKP (Keypad interface module)
+
+If possible, send me a screenshot of VelbusLink. See also https://github.com/StefCoene/module_screenshot.
+
 ## 2020-12-23: master and development branch
 I copied the master branch to a development branch and removed all files except the json file from the master branch.
 This makes it easier to use this module as a git submodul.
