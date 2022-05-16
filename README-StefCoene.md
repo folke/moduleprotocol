@@ -5,17 +5,15 @@ I miss some information and more specifically the channel information for the fo
 - 0E=VMB1TC (TemperatureController Module)
 - 13=VMBLCDWB (Multi page push button module)
 - 1A=VMB4RF (Wireless remote control receiver module)
-- 30=VMBRFR8S (8 channel RF receiver module)
 - 33=VMBVP1 (Doorbird interface module)
-- 42=VMBKP (Keypad interface module)
 
 If possible, send me a screenshot of VelbusLink. See also https://github.com/StefCoene/module_screenshot.
 
 ## 2020-12-23: master and development branch
 I copied the master branch to a development branch and removed all files except the json file from the master branch.
-This makes it easier to use this module as a git submodul.
+This makes it easier to use this module as a git submodule.
 
-So if you want to know how I created the json file, use the development brancht.
+So if you want to know how I created the json file, use the development branch.
 If you want to use the json file in your own git repository, use the mater branch.
 
 ## Goal
