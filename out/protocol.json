@@ -222,9 +222,15 @@
                "Action" : {
                   "Set" : "yes"
                }
+            },
+            "4C" : {
+               "Action" : {
+                  "Get" : "yes",
+                  "Set" : "yes"
+               }
             }
          },
-         "Modules" : "01,05,0B,16,17,18,1E,1F,20,21,22,28,2D,30,33,34,35,36,37,38,3A,3B,3C,3D,3E,41,42,43",
+         "Modules" : "01,05,0B,16,17,18,1E,1F,20,21,22,28,2D,30,33,34,35,36,37,38,3A,3B,3C,3D,3E,41,42,43,4C",
          "Set" : {
             "Match" : {
                "OFF" : {
@@ -408,9 +414,15 @@
                "Action" : {
                   "Set" : "yes"
                }
+            },
+            "4C" : {
+               "Action" : {
+                  "Get" : "yes",
+                  "Set" : "yes"
+               }
             }
          },
-         "Modules" : "01,05,0B,16,17,18,1E,1F,20,21,22,28,2D,30,33,34,35,36,37,38,3A,3B,3C,3D,3E,41,42,43",
+         "Modules" : "01,05,0B,16,17,18,1E,1F,20,21,22,28,2D,30,33,34,35,36,37,38,3A,3B,3C,3D,3E,41,42,43,4C",
          "Set" : {
             "Match" : {
                "OFF" : {
@@ -26501,7 +26513,456 @@
          },
          "Type" : "VMBDALI",
          "Version" : "edition 3"
+      },
+      "4C" : {
+         "Channels" : {
+            "01" : {
+               "Editable" : "yes",
+               "Name" : "Push button 1",
+               "Type" : "Button"
+            },
+            "02" : {
+               "Editable" : "yes",
+               "Name" : "Push button 2",
+               "Type" : "Button"
+            },
+            "03" : {
+               "Editable" : "yes",
+               "Name" : "Push button 3",
+               "Type" : "Button"
+            },
+            "04" : {
+               "Editable" : "yes",
+               "Name" : "Push button 4",
+               "Type" : "Button"
+            },
+            "05" : {
+               "Editable" : "yes",
+               "Name" : "Push button 5",
+               "Type" : "Button"
+            },
+            "06" : {
+               "Editable" : "yes",
+               "Name" : "Push button 6",
+               "Type" : "Button"
+            },
+            "07" : {
+               "Editable" : "yes",
+               "Name" : "Virtual button 1",
+               "Type" : "Button"
+            },
+            "08" : {
+               "Editable" : "yes",
+               "Name" : "Virtual button 2",
+               "Type" : "Button"
+            }
+         },
+         "File" : "protocol_vmb6pb_20.txt",
+         "Info" : "6 button interface module",
+         "Memory" : {
+            "1" : {
+               "Address" : {
+                  "03BC" : {
+                     "ModuleName" : "0:Start"
+                  },
+                  "03BD" : {
+                     "ModuleName" : "1"
+                  },
+                  "03BE" : {
+                     "ModuleName" : "2"
+                  },
+                  "03BF" : {
+                     "ModuleName" : "3"
+                  },
+                  "03C0" : {
+                     "ModuleName" : "4"
+                  },
+                  "03C1" : {
+                     "ModuleName" : "5"
+                  },
+                  "03C2" : {
+                     "ModuleName" : "6"
+                  },
+                  "03C3" : {
+                     "ModuleName" : "7"
+                  },
+                  "03C4" : {
+                     "ModuleName" : "8"
+                  },
+                  "03C5" : {
+                     "ModuleName" : "9"
+                  },
+                  "03C6" : {
+                     "ModuleName" : "10"
+                  },
+                  "03C7" : {
+                     "ModuleName" : "11"
+                  },
+                  "03C8" : {
+                     "ModuleName" : "12"
+                  },
+                  "03C9" : {
+                     "ModuleName" : "13"
+                  },
+                  "03CA" : {
+                     "ModuleName" : "14"
+                  },
+                  "03CB" : {
+                     "ModuleName" : "15"
+                  },
+                  "03CC" : {
+                     "ModuleName" : "16"
+                  },
+                  "03CD" : {
+                     "ModuleName" : "17"
+                  },
+                  "03CE" : {
+                     "ModuleName" : "18"
+                  },
+                  "03CF" : {
+                     "ModuleName" : "19"
+                  },
+                  "03D0" : {
+                     "ModuleName" : "20"
+                  },
+                  "03D1" : {
+                     "ModuleName" : "21"
+                  },
+                  "03D2" : {
+                     "ModuleName" : "22"
+                  },
+                  "03D3" : {
+                     "ModuleName" : "23"
+                  },
+                  "03D4" : {
+                     "ModuleName" : "24"
+                  },
+                  "03D5" : {
+                     "ModuleName" : "25"
+                  },
+                  "03D6" : {
+                     "ModuleName" : "26"
+                  },
+                  "03D7" : {
+                     "ModuleName" : "27"
+                  },
+                  "03D8" : {
+                     "ModuleName" : "28"
+                  },
+                  "03D9" : {
+                     "ModuleName" : "29"
+                  },
+                  "03DA" : {
+                     "ModuleName" : "30"
+                  },
+                  "03DB" : {
+                     "ModuleName" : "31"
+                  },
+                  "03DC" : {
+                     "ModuleName" : "32"
+                  },
+                  "03DD" : {
+                     "ModuleName" : "33"
+                  },
+                  "03DE" : {
+                     "ModuleName" : "34"
+                  },
+                  "03DF" : {
+                     "ModuleName" : "35"
+                  },
+                  "03E0" : {
+                     "ModuleName" : "36"
+                  },
+                  "03E1" : {
+                     "ModuleName" : "37"
+                  },
+                  "03E2" : {
+                     "ModuleName" : "38"
+                  },
+                  "03E3" : {
+                     "ModuleName" : "39"
+                  },
+                  "03E4" : {
+                     "ModuleName" : "40"
+                  },
+                  "03E5" : {
+                     "ModuleName" : "41"
+                  },
+                  "03E6" : {
+                     "ModuleName" : "42"
+                  },
+                  "03E7" : {
+                     "ModuleName" : "43"
+                  },
+                  "03E8" : {
+                     "ModuleName" : "44"
+                  },
+                  "03E9" : {
+                     "ModuleName" : "45"
+                  },
+                  "03EA" : {
+                     "ModuleName" : "46"
+                  },
+                  "03EB" : {
+                     "ModuleName" : "47"
+                  },
+                  "03EC" : {
+                     "ModuleName" : "48"
+                  },
+                  "03ED" : {
+                     "ModuleName" : "49"
+                  },
+                  "03EE" : {
+                     "ModuleName" : "50"
+                  },
+                  "03EF" : {
+                     "ModuleName" : "51"
+                  },
+                  "03F0" : {
+                     "ModuleName" : "52"
+                  },
+                  "03F1" : {
+                     "ModuleName" : "53"
+                  },
+                  "03F2" : {
+                     "ModuleName" : "54"
+                  },
+                  "03F3" : {
+                     "ModuleName" : "55"
+                  },
+                  "03F4" : {
+                     "ModuleName" : "56"
+                  },
+                  "03F5" : {
+                     "ModuleName" : "57"
+                  },
+                  "03F6" : {
+                     "ModuleName" : "58"
+                  },
+                  "03F7" : {
+                     "ModuleName" : "59"
+                  },
+                  "03F8" : {
+                     "ModuleName" : "60"
+                  },
+                  "03F9" : {
+                     "ModuleName" : "61"
+                  },
+                  "03FA" : {
+                     "ModuleName" : "62"
+                  },
+                  "03FB" : {
+                     "ModuleName" : "64:Save"
+                  }
+               },
+               "ModuleName" : "03BC-03FB",
+               "StatusAddress" : "03BC;03BD;03BE;03BF;03C0;03C1;03C2;03C3;03C4;03C5;03C6;03C7;03C8;03C9;03CA;03CB;03CC;03CD;03CE;03CF;03D0;03D1;03D2;03D3;03D4;03D5;03D6;03D7;03D8;03D9;03DA;03DB;03DC;03DD;03DE;03DF;03E0;03E1;03E2;03E3;03E4;03E5;03E6;03E7;03E8;03E9;03EA;03EB;03EC;03ED;03EE;03EF;03F0;03F1;03F2;03F3;03F4;03F5;03F6;03F7;03F8;03F9;03FA;03FB"
+            }
+         },
+         "MemoryMatch" : {
+            "1" : {
+               "Build" : ">= 2310",
+               "Version" : "1"
+            }
+         },
+         "Messages" : {
+            "00" : {
+               "Data" : {
+                  "PerByte" : {
+                     "0" : {
+                        "Match" : {
+                           "%." : {
+                              "Convert" : "Channel",
+                              "Value" : "pressed"
+                           }
+                        },
+                        "Name" : "Button"
+                     },
+                     "1" : {
+                        "Match" : {
+                           "%." : {
+                              "Convert" : "Channel",
+                              "Value" : "released"
+                           }
+                        },
+                        "Name" : "Button"
+                     },
+                     "2" : {
+                        "Match" : {
+                           "%." : {
+                              "Convert" : "Channel",
+                              "Value" : "longpressed"
+                           }
+                        },
+                        "Name" : "Button"
+                     }
+                  }
+               },
+               "Info" : "Transmits the channel switch status",
+               "Name" : "COMMAND_PUSH_BUTTON_STATUS",
+               "Prio" : "High"
+            },
+            "12" : {
+               "Info" : "Lock channel command received",
+               "Name" : "COMMAND_FORCED_OFF",
+               "Prio" : "High"
+            },
+            "13" : {
+               "Info" : "Unlock channel command received",
+               "Name" : "COMMAND_CANCEL_FORCED_OFF",
+               "Prio" : "High"
+            },
+            "B1" : {
+               "Info" : "Disable Channel Program command received",
+               "Name" : "COMMAND_DISABLE_PROGRAM",
+               "Prio" : "Low"
+            },
+            "B2" : {
+               "Info" : "Enable Channel Program command received",
+               "Name" : "COMMAND_ENABLE_PROGRAM",
+               "Prio" : "Low"
+            },
+            "B3" : {
+               "Info" : "Select Program command received",
+               "Name" : "COMMAND_SELECT_PROGRAM",
+               "Prio" : "Low"
+            },
+            "C0" : {
+               "Info" : "Read program step command received",
+               "Name" : "COMMAND_READ_PROGRAM_STEP",
+               "Prio" : "Low"
+            },
+            "C1" : {
+               "Info" : "Transmits program step info",
+               "Name" : "COMMAND_PROGRAM_STEP_INFO",
+               "Prio" : "Low"
+            },
+            "C2" : {
+               "Info" : "Write program step command received",
+               "Name" : "COMMAND_WRITE_PROGRAM_STEP",
+               "Prio" : "Low"
+            },
+            "C9" : {
+               "Info" : "Read data block from memory command received",
+               "Name" : "COMMAND_READ_MEMORY_BLOCK",
+               "Prio" : "Low"
+            },
+            "CA" : {
+               "Info" : "Or;Write memory block command received",
+               "Name" : "COMMAND_WRITE_MEMORY_BLOCK",
+               "Prio" : "Low"
+            },
+            "CB" : {
+               "Info" : "Memory dump request command received",
+               "Name" : "COMMAND_MEMORY_DUMP_REQUEST",
+               "Prio" : "Low"
+            },
+            "CC" : {
+               "Info" : "Transmits memory data block (4 bytes);Transmits memory data block (5...60 bytes)(only allowed for CAN FD frames)",
+               "Name" : "COMMAND_MEMORY_DATA_BLOCK",
+               "Prio" : "Low"
+            },
+            "D9" : {
+               "Info" : "Bus error counter status request command received",
+               "Name" : "COMMAND_BUS_ERROR_COUNTER_STATUS_REQUEST",
+               "Prio" : "Low"
+            },
+            "DA" : {
+               "Info" : "Transmit Bus error counter status",
+               "Name" : "COMMAND_BUSERROR_COUNTER_STATUS",
+               "Prio" : "Low"
+            },
+            "ED" : {
+               "Info" : "Transmits the module status",
+               "Name" : "COMMAND_MODULE_STATUS",
+               "Prio" : "Low"
+            },
+            "EF" : {
+               "Info" : "Channel name request command received",
+               "Name" : "COMMAND_CHANNEL_NAME_REQUEST",
+               "Prio" : "Low"
+            },
+            "F0" : {
+               "Info" : "Transmits the first part of channel name",
+               "Name" : "COMMAND_CHANNEL_NAME_PART1",
+               "Prio" : "Low"
+            },
+            "F1" : {
+               "Info" : "Transmits the second part of the channel name",
+               "Name" : "COMMAND_CHANNEL_NAME_PART2",
+               "Prio" : "Low"
+            },
+            "F2" : {
+               "Info" : "Transmits the third part of the channel name",
+               "Name" : "COMMAND_CHANNEL_NAME_PART3",
+               "Prio" : "Low"
+            },
+            "F4" : {
+               "Info" : "Update channel LEDs command received",
+               "Name" : "COMMAND_UPDATE_LED_STATUS",
+               "Prio" : "Low"
+            },
+            "F5" : {
+               "Info" : "Clear channel LED command received",
+               "Name" : "COMMAND_CLEAR_LED",
+               "Prio" : "Low"
+            },
+            "F6" : {
+               "Info" : "Set channel LED command received",
+               "Name" : "COMMAND_SET_LED",
+               "Prio" : "Low"
+            },
+            "F7" : {
+               "Info" : "Slow blink channel LED command received",
+               "Name" : "COMMAND_SLOW_BLINK_LED",
+               "Prio" : "Low"
+            },
+            "F8" : {
+               "Info" : "Fast blink channel LED command received",
+               "Name" : "COMMAND_FAST_BLINK_LED",
+               "Prio" : "Low"
+            },
+            "F9" : {
+               "Info" : "Very fast blink channel LED command received",
+               "Name" : "COMMAND_VERY_FAST_BLINK_LED",
+               "Prio" : "Low"
+            },
+            "FA" : {
+               "Info" : "Module status request command received",
+               "Name" : "COMMAND_MODULE_STATUS_REQUEST",
+               "Prio" : "Low"
+            },
+            "FC" : {
+               "Info" : "Write data to memory command received",
+               "Name" : "COMMAND_WRITE_DATA_TO_MEMORY",
+               "Prio" : "Low"
+            },
+            "FD" : {
+               "Info" : "Read data from memory command received",
+               "Name" : "COMMAND_READ_DATA_FROM_MEMORY",
+               "Prio" : "Low"
+            },
+            "FE" : {
+               "Info" : "Transmits the memory data",
+               "Name" : "COMMAND_MEMORY_DATA",
+               "Prio" : "Low"
+            },
+            "FF" : {
+               "Data" : {
+                  "BuildWeek" : "7",
+                  "BuildYear" : "6",
+                  "MemoryMap" : "5",
+                  "SerialHigh" : "3",
+                  "SerialLow" : "4"
+               },
+               "Info" : "Transmits the module type",
+               "Name" : "COMMAND_MODULETYPE",
+               "Prio" : "Low"
+            }
+         },
+         "Type" : "VMB6PB-20",
+         "Version" : "edition 3"
       }
    },
-   "Version" : "20220516"
+   "Version" : "20240321"
 }

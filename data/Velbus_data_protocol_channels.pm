@@ -211,6 +211,24 @@ $json{ModuleTypes}{'05'}{Channels}{"05"}{Type} = "Button" ;
 $json{ModuleTypes}{'05'}{Channels}{"06"}{Name} = "Push button 6" ;
 $json{ModuleTypes}{'05'}{Channels}{"06"}{Type} = "Button" ;
 
+# 6-channel input: VMB6PB-20
+$json{ModuleTypes}{'4C'}{Channels}{"01"}{Name} = "Push button 1" ;
+$json{ModuleTypes}{'4C'}{Channels}{"01"}{Type} = "Button" ;
+$json{ModuleTypes}{'4C'}{Channels}{"02"}{Name} = "Push button 2" ;
+$json{ModuleTypes}{'4C'}{Channels}{"02"}{Type} = "Button" ;
+$json{ModuleTypes}{'4C'}{Channels}{"03"}{Name} = "Push button 3" ;
+$json{ModuleTypes}{'4C'}{Channels}{"03"}{Type} = "Button" ;
+$json{ModuleTypes}{'4C'}{Channels}{"04"}{Name} = "Push button 4" ;
+$json{ModuleTypes}{'4C'}{Channels}{"04"}{Type} = "Button" ;
+$json{ModuleTypes}{'4C'}{Channels}{"05"}{Name} = "Push button 5" ;
+$json{ModuleTypes}{'4C'}{Channels}{"05"}{Type} = "Button" ;
+$json{ModuleTypes}{'4C'}{Channels}{"06"}{Name} = "Push button 6" ;
+$json{ModuleTypes}{'4C'}{Channels}{"06"}{Type} = "Button" ;
+$json{ModuleTypes}{'4C'}{Channels}{"07"}{Name} = "Virtual button 1" ;
+$json{ModuleTypes}{'4C'}{Channels}{"07"}{Type} = "Button" ;
+$json{ModuleTypes}{'4C'}{Channels}{"08"}{Name} = "Virtual button 2" ;
+$json{ModuleTypes}{'4C'}{Channels}{"08"}{Type} = "Button" ;
+
 # 8-channel Push button interface module: VMB8PBU
 $json{ModuleTypes}{'16'}{Channels}{"01"}{Name} = "Push button 1" ;
 $json{ModuleTypes}{'16'}{Channels}{"01"}{Type} = "Button" ;

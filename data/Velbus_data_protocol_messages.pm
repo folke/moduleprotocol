@@ -506,6 +506,9 @@ $json{ModuleTypes}{'01'}{Messages}{'00'}{General} = "ButtonPress" ;
 # 6-Channel Input Module :VMB6IN
 $json{ModuleTypes}{'05'}{Messages}{'00'}{General} = "ButtonPress" ;
 
+# 6-Channel Input Module :VMB6PB-20
+$json{ModuleTypes}{'4C'}{Messages}{'00'}{General} = "ButtonPress" ;
+
 # 8-channel Push button interface module: VMB8PBU
 $json{ModuleTypes}{'16'}{Messages}{'00'}{General} = "ButtonPress" ;
 
