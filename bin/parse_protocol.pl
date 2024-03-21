@@ -293,7 +293,7 @@ foreach my $file (sort keys(%{$file{PerFile}})) {
          # Parse the DATABYTE information
          foreach my $line (split "\n", $file{PerFile}{$file}{Messages}{$counter}{DATABYTE} ) {
             # First databyte contains the type of message
-            if ( $line =~ /DATABYTE1/ ) {
+            if ( $line =~ /DATABYTE1(?!\d)/ ) {
                if ( $line =~ /DATABYTE1=(.+) \(H’(..)’\)/ or
                     $line =~ /DATABYTE1 (.+) \(H’(..)’\)/ or
                     $line =~ /DATABYTE1=(.+) \(0x(.+)\)/ or
